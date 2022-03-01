@@ -10,7 +10,7 @@
     "start:dev": "quasar dev -m electron",
     "start:electron": "electron ./dist/electron/UnPackaged/electron-main.js",
     "build:electron": "quasar build -m electron",
-    "start:cli": "tsc ./src-worker/runner.ts && node ./src-worker/runner.js",
+    "start:cli": "tsc --skipLibCheck ./src-worker/runner.ts && node ./src-worker/runner.js",
     "lint": "eslint --ext .js,.ts,.vue ./",
     "test": "echo \"No test specified\" && exit 0"
   },
