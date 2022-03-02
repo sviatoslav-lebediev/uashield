@@ -1,3 +1,5 @@
+# https://github.com/opengs/uashield supports a headless mode, this repo will be closed
+
 # UA Cyber SHIELD
 Система волонтерської кібероборони України  / Ukrainian voluntary cyber defence system
 
